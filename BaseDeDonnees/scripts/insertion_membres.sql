@@ -24,7 +24,7 @@ values ("NANGA", "Rosalie", "F", 694759271, "Anguissa", "Yaounde", now()),
 ("NDTOUNGOU", "Moise", "F", 694749505, "Monti", "Douala", now()),
 ("NNANGA", "Damaris", "F", 694749505, "Monti", "Douala", now()),
 ("NDJOCK", "Liliane", "F", 694749505, "Monti", "Douala", now()),
-("FOE", "Jeanne", "F", 694749505, "Monti", "Douala", now()),
+("FOE", "Jeanne", "F", 694749505, "Monti", "Douala", now());/*
 ("MENGUE", "Fleure", "F", 694749505, "Monti", "Douala", now()),
 ("BOUDA", "Marceline", "F", 694749505, "Monti", "Douala", now()),
 ("NKA", "Bernadette", "F", 694749505, "Monti", "Douala", now()),
@@ -74,4 +74,4 @@ values ("NANGA", "Rosalie", "F", 694759271, "Anguissa", "Yaounde", now()),
 ("FOUDA", "ONGOLO", "F", 694749505, "Monti", "Douala", now()),
 ("FOUDA", "Fabien", "F", 694749505, "Monti", "Douala", now()),
 ("FOUDA", "MENGUE", "F", 694749505, "Monti", "Douala", now()),
-("FOUDA", "ABOLO", "F", 694749505, "Monti", "Douala", now());
+("FOUDA", "ABOLO", "F", 694749505, "Monti", "Douala", now());*/

@@ -39,6 +39,7 @@ foreign key(Membre) references Membres(id_membre));
 create table if not exists Versement
 (id_versement integer auto_increment ,
 Membre integer,
+Assurance float,
 Secours float,
 Mariage float,
 Epargne float,
