@@ -14,7 +14,7 @@ use assurance_egalite;
 
 /*creation de la table Membre*/
 create table if not exists Membres
-(id_membre integer auto_increment unique,
+(id_membre integer auto_increment ,
 Nom char(100) not null,
 Prenom char(100),
 Sexe char(1),
@@ -26,7 +26,7 @@ primary key(id_membre));
 
 /*creation de la table Emprunt*/
 create table if not exists Emprunt
-(id_emprunt integer auto_increment unique,
+(id_emprunt integer auto_increment ,
 Membre integer,
 Date_emprunt date not null,
 Date_retour date not null,
@@ -37,7 +37,7 @@ foreign key(Membre) references Membres(id_membre));
 
 /*craetion de la table Versement*/
 create table if not exists Versement
-(id_versement integer auto_increment unique,
+(id_versement integer auto_increment ,
 Membre integer,
 Secours float,
 Mariage float,

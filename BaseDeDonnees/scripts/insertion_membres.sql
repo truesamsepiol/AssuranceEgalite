@@ -1,7 +1,7 @@
 /*Debut de modification du fichier
 	Mercredi 05 Avril 2023
 	Auteur: samsepiol
-	Liste de toutes les requetes possibles */
+	*/
 
 /* Insertion des nouveaux membres */
 insert into Membres (Nom, Prenom, Sexe, Telephone, Quartier, Ville, Date_inscription)
@@ -74,5 +74,4 @@ values ("NANGA", "Rosalie", "F", 694759271, "Anguissa", "Yaounde", now()),
 ("FOUDA", "ONGOLO", "F", 694749505, "Monti", "Douala", now()),
 ("FOUDA", "Fabien", "F", 694749505, "Monti", "Douala", now()),
 ("FOUDA", "MENGUE", "F", 694749505, "Monti", "Douala", now()),
-("FOUDA", "ABOLO", "F", 694749505, "Monti", "Douala", now()),
-("ALIMA", "Beatrice", "F", 694749505, "Monti", "Douala", now());
+("FOUDA", "ABOLO", "F", 694749505, "Monti", "Douala", now());
