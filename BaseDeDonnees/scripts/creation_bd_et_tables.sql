@@ -21,14 +21,14 @@ Sexe char(1),
 Telephone char(10),
 Quartier char(100),
 Ville char(100),
-Date_inscription date,
+Date_inscription date default '1970-01-01',
 primary key(id_membre));
 
 /*creation de la table Emprunt*/
 create table if not exists Emprunt
 (id_emprunt integer auto_increment ,
 Membre integer,
-Date_emprunt date not null,
+Date_emprunt date not null default '1970-01-01',
 Date_retour date not null,
 Taux float not null,
 Etat boolean default false,
@@ -39,12 +39,12 @@ foreign key(Membre) references Membres(id_membre));
 create table if not exists Versement
 (id_versement integer auto_increment ,
 Membre integer,
-Assurance float,
-Secours float,
-Mariage float,
-Epargne float,
-Ration float,
-Pagne float,
-Date_versement date,
+Assurance float default 0,
+Secours float default 0,
+Mariage float default 0,
+Epargne float default 0,
+Ration float default 0,
+Pagne float default 0,
+Date_versement date default '1970-01-01', 
 primary key(id_versement),
 foreign key(Membre) references Membres(id_membre));
