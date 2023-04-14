@@ -1,0 +1,26 @@
+
+body{
+	margin: 0;
+	background-color:  #14152f;
+}
+
+.gauche{
+	background-color: #14152f;
+	border: solid 1px black;
+	width: 50%;
+	height: 50%;
+}
+
+.droite{
+	background-color: #03081e;
+	border: solid 1px red;
+	width: 50%;
+	height: 50%;
+}
+
+h1{
+	color: #fff;
+}
+
+
+/*interesse toi a la proprieté css overflow*/
