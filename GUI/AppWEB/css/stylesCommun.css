@@ -12,6 +12,8 @@ body{
 	background-color: #f5f6f7;
 	color: #fff;
 }
+/*fin*/
+
 /* boite flexible */
 /*main est la boite flexible*/
 .main{
@@ -23,10 +25,28 @@ body{
 	min-height: 100vh; /*hauteur sur toute la page*/
 	width: 100%; /*largeur sur toute la page*/
 }
-.gauche{
-	background-color: #14152f;
-}
+/*fin*/
+
+/*style css pour le cote droit */
 .droite{
 	background-color: #03081e;
 }
+.titre{
+	color: #fff;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 100;
+	/*background-color: #888989;	*/
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45%;
+	margin-bottom: 0;
+}
+/*fin*/
 
+/*style css pour le cote gauche*/
+.gauche{
+	background-color: #14152f;
+}
+/*fin*/

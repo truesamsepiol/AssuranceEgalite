@@ -1,0 +1,70 @@
+/*modification propre a la page de login*/
+.login-box{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	width: 40%; 
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+.login-box h2{
+	margin: 0 0 30px;
+	padding: 0;
+	padding-bottom: 55px;
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+}
+.login-box .user-box{
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.login-box .user-box .input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+.login-box .user-box label{
+	position: absolute;
+	top: -5px;
+	left: 0;
+	padding: 10px 0;
+	font-size: 1.3rem;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+.login-box .user-box .input:focus ~ label,
+.login-box .user-box .input:valid ~ label{
+	top: -20px;
+	left: 0;
+	font-size: 1rem;
+	color: #979797;
+}
+input[type="submit"]{
+	display: block;
+	height: 2em;
+	width: 40%;
+	min-width: 200px;
+	background-color: transparent;
+	border: solid 1px #fff;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #fff;
+	border-radius: 10px;
+	transition: .1s;
+}
+.submit:hover,
+.submit:focus{
+	color: #14152f;
+	background-color: #fff;
+}
+/*fin*/
